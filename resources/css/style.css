@@ -26,7 +26,15 @@ header {
 .monthly {
   border: 1px solid red;
 }
-
+.location {
+  border: 1px solid red;
+}
+.location h2 {
+  border: 3px dotted blue;
+}
+.location_box {
+  border: 3px solid blue;
+}
 
 /*header*/
 header {
@@ -102,4 +110,24 @@ nav span a {
 }
 .tea_text h4 {
   margin: 10px 0px 20px 0px;
+}
+
+/*Location*/
+.location {
+  background-image: url("../images/img-locations-background.jpg");
+  height:500px;
+  width: 1200px;
+  background-position: center;
+  position: relative;
+  top: 180px;
+  display: flex;
+  justify-content: center;
+}
+.location h2 {
+  display: block;
+  background-color: transparent;
+  top: 50px;
+}
+.location_box {
+
 }
