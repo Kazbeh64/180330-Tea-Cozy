@@ -1,0 +1,12 @@
+* {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+/*  header  */
+.logo {
+  height:50px;
+  width:auto;
+}
