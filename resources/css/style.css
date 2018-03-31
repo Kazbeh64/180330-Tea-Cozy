@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 h2 {
   font-size: 32px;
@@ -20,6 +21,9 @@ header {
   border: 1px solid red;
 }
 .mission {
+  border: 1px solid red;
+}
+.monthly {
   border: 1px solid red;
 }
 
@@ -34,7 +38,6 @@ header {
   width: 100%;
   z-index: 3;
   top: 0px;
-  bottom: 0px;
 }
 .logo {
   padding-left: 10px;
@@ -56,6 +59,7 @@ nav span a {
   position: relative;
   top: 70px;
   height: 700px;
+  width: 1200px;
   overflow: hidden;
 }
 .mission_img {
@@ -77,4 +81,25 @@ nav span a {
 }
 .mission_text h4 {
   margin-bottom: 10px
+}
+
+/*Monthly*/
+.monthly {
+  display: flex;
+  position: relative;
+  top:140px;
+  flex-direction: column;
+  width: 1000px;
+}
+.monthly_img {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+}
+.tea_img {
+  margin: 0 15px;
+}
+.tea_text h4 {
+  margin: 10px 0px 20px 0px;
 }
