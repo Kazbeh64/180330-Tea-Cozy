@@ -1,6 +1,5 @@
 /*Global*/
 * {
-  background-color: black;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -11,6 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 h2 {
   font-size: 32px;
@@ -29,12 +29,6 @@ header {
 .location {
   border: 1px solid red;
 }
-.location h2 {
-  border: 3px dotted blue;
-}
-.location_box {
-  border: 3px solid blue;
-}
 
 /*header*/
 header {
@@ -46,6 +40,7 @@ header {
   width: 100%;
   z-index: 3;
   top: 0px;
+  background-color: black;
 }
 .logo {
   padding-left: 10px;
@@ -117,17 +112,23 @@ nav span a {
   background-image: url("../images/img-locations-background.jpg");
   height:500px;
   width: 1200px;
-  background-position: center;
+  background-position: top;
   position: relative;
   top: 180px;
-  display: flex;
-  justify-content: center;
+  padding: 70px 0px;
 }
 .location h2 {
-  display: block;
-  background-color: transparent;
-  top: 50px;
+  margin-bottom: 0px;
 }
-.location_box {
-
+.location .boxes {
+  display:flex;
+  justify-content: center;
+}
+.box {
+  background-color: black;
+  width: 300px;
+  margin: 15px 20px;
+}
+.box p {
+  padding: 10px 0;
 }
