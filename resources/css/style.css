@@ -4,8 +4,9 @@
   font-size: 22px;
   color: seashell;
   text-align: center;
+  background-color: black;
 }
-body {
+.content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,7 +17,7 @@ h2 {
   font-size: 32px;
 }
 
-/*borders*/
+/*borders
 header {
   border: 1px solid red;
 }
@@ -29,6 +30,7 @@ header {
 .location {
   border: 1px solid red;
 }
+*/
 
 /*header*/
 header {
@@ -41,6 +43,8 @@ header {
   z-index: 3;
   top: 0px;
   background-color: black;
+  float:left;
+  left:0;
 }
 .logo {
   padding-left: 10px;
@@ -119,10 +123,12 @@ nav span a {
 }
 .location h2 {
   margin-bottom: 0px;
+    background-color: transparent;
 }
 .location .boxes {
   display:flex;
   justify-content: center;
+    background-color: transparent;
 }
 .box {
   background-color: black;
@@ -131,4 +137,24 @@ nav span a {
 }
 .box p {
   padding: 10px 0;
+}
+
+/* Contact */
+.contact {
+  position: relative;
+  top: 180px;
+  height: 200px;
+}
+
+/* Footer */
+footer {
+  display: block;
+  float: left;
+  position: relative;
+  top:400px;
+  width: 100%;
+  margin-left: 20px;
+}
+footer h5 {
+    text-align: left;
 }
